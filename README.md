@@ -1,9 +1,11 @@
-Guanabara está me aliciando a fazer um curso de Python
+# pythonCurso
 
-Perdão pelo que falei de seus cursos Guanabara
+Aula 01 a 03 - Teoria de python, programação e instalação do compilador de python
 
-Guanabara é um dos professores que existem
+aula 04 - varáveis, impressão de informações e concatenação
 
-Shortensne and shortensdse
+aula 05 - Instalação dos IDE's para programar em python (optei por usar Visual Studio Code)
 
-Python é lindo
+aula 06 - Tipos primitivos
+
+aula 07 - Operadores aritméticos 
