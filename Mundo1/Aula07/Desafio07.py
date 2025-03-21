@@ -67,9 +67,12 @@ print('A área da parede é de {}m² e você precisará de {} litros de tinta pa
 
 preco = float(input('Digite o preço do produto:'))
 desconto = preco*0.05
-novoPreco = preco + desconto
+novoPreco = preco - desconto
 print('O preço a ser pago é {}'.format(novoPreco))
 
 # Desafio 13 - Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário com 15% de aumento
 
 sal = float(input('Digite o salário do funcionário:'))
+aumento = sal*0.15
+salFinal = sal + aumento
+print('O salário com o aumento ficou {}'.format(salFinal))
