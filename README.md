@@ -2,7 +2,7 @@
 
 Aula 01 a 03 - Teoria de python, programação e instalação do compilador de python
 
-aula 04 - varáveis, impressão de informações e concatenação
+aula 04 - variáveis, impressão de informações e concatenação
 
 aula 05 - Instalação dos IDE's para programar em python (optei por usar Visual Studio Code)
 
