@@ -42,6 +42,8 @@ print('Prazer em te conhecer, {:>20}!'.format(nome)); #escreve o nome em 20 espa
 print('Prazer em te conhecer, {:<20}!'.format(nome)); #escreve o nome em 20 espaços alinhado à esquerda
 print('Prazer em te conhecer, {:^20}!'.format(nome)); #escreve o nome em 20 espaços centralizado
 print('Prazer em te conhecer, {:=^20}!'.format(nome)); #escreve o nome em 20 espaços centralizado com = no lugar de espaço vazio
+# ':' para adicionar a mascara
+
 
 #muitas opções de formatação de string
 #python é incrível
