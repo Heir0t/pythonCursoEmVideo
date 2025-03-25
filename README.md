@@ -22,5 +22,7 @@ aula 08 - Utilização de módulos{
     pip list --> lista as bibliotecas python instaladas
 
     pip uninstall nome_da_biblioteca --> desinstala a biblioteca
-
 }
+
+Aula 09 - Manipulação de string
+
