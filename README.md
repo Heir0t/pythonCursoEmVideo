@@ -26,3 +26,6 @@ aula 08 - Utilização de módulos{
 
 Aula 09 - Manipulação de string
 
+Aula 10 - Condicionais  if else{
+    obs: não é "else if" como no padrão das outras linguagens, em python é "elif"
+}
