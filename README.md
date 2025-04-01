@@ -1,5 +1,7 @@
 # pythonCurso
 
+<h1>Mundo 1</h1>
+
 Aula 01 a 03 - Teoria de python, programação e instalação do compilador de python
 
 aula 04 - variáveis, impressão de informações e concatenação
@@ -29,3 +31,5 @@ Aula 09 - Manipulação de string
 Aula 10 - Condicionais  if else{
     obs: não é "else if" como no padrão das outras linguagens, em python é "elif"
 }
+
+Aula 11 - Cores no terminal
