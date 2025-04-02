@@ -29,9 +29,11 @@ aula 08 - Utilização de módulos{
 Aula 09 - Manipulação de string
 
 Aula 10 - Condicionais  if else{
-    obs: não é "else if" como no padrão das outras linguagens, em python é "elif"
+    obs:: não é "else if" como no padrão das outras linguagens, em python é "elif"
 }
 
 Aula 11 - Cores no terminal
 
 <h1>Mundo 2<h1>
+
+Aula 12 - Condições aninhadas
