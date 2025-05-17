@@ -43,7 +43,7 @@ n2 = int(input('Digite o valor do segundo número: '))
 
 if n1 > n2:
     print('O primeiro valor é maior')
-elif n2 > n2:
+elif n2 > n1:
     print('O segundo número é maior')
 else:
     print('Os dois possuem o mesmo valor')
@@ -116,7 +116,28 @@ elif idade > 25:
 # - Isósceles: dois lados iguais
 # - Escaleno: todos os lados diferentes
 
+lado1 = int(input('Digite o lado de um triângulo: '))
+lado2 = int(input('Digite o lado de um triângulo: '))
+lado3 = int(input('Digite o lado de um triângulo: '))
 
+if lado1 != 0 and lado2 != 0 and lado3 != 0:
+    if lado1 + lado2 > lado3 and lado1 + lado3 > lado2 and lado2 + lado3 > lado1:
+        print('Os lados formam um triângulo! ')
+        ehTriangulo = True
+    else:
+        print('Estas retas não formam um triângulo ')
+        ehTriangulo = False
+else:
+    print('Estas retas não formam um triângulo')
+    ehTriangulo = False
+
+if ehTriangulo:
+    if lado1 == lado2 and lado2 == lado3:
+        print('Triângulo equilátero')
+    elif lado1 == lado2 or lado2 == lado3 or lado1 == lado3:
+        print('Triângulo isósceles')
+    else:
+        print('Triângulo escaleno')
 
 # Desafio 43: Desenvolva uma lógica que leia o peso e a altura de uma pessoa, calcule seu Índice de Massa Corporal (IMC) e mostre seu status:
 # - Abaixo de 18.5: Abaixo do peso
@@ -125,6 +146,10 @@ elif idade > 25:
 # - 30 até 40: Obesidade
 # - Acima de 40: Obesidade mórbida
 
+peso = float(input('Digite seu peso(kg):'))
+altura = float(input('Digite sua altura(m):'))
+imc = peso/altura**2
+print(f'Seu IMC é {imc:.2f}')
 
 # Desafio 44: Elabore um programa que calcule o valor a ser pago por um produto, considerando o seu preço normal e condição de pagamento:
 # - À vista dinheiro/cheque: 10% de desconto
@@ -132,4 +157,36 @@ elif idade > 25:
 # - Em até 2x no cartão: preço normal
 # - 3x ou mais no cartão: 20% de juros
 
+valorProduto = float(input('Digite o valor do produto:'))
+print('Escolha a forma de pagamento:')
+print('1 - À vista dinheiro/cheque')
+print('2 - À vista no cartão')
+print('3 - Até 2x no cartão')
+print('4 - 3x ou mais')
+
+metodoPag = int(input(''))
+
+match metodoPag:
+    case 1:
+        valorFinal = float(valorProduto + (valorProduto * 0.10))
+        print(f'Você irá pagar R${valorFinal:.2f}')
+    case 2:
+        valorFinal = float(valorProduto + (valorProduto * 0.05))
+        print(f'Você irá pagar R${valorFinal:.2f}')
+    case 3:
+        valorFinal = float(valorProduto/2)
+        print(f'Você irá pagar duas parcelas de R${valorFinal:.2f}')
+    case 4:
+        numParc = int(input('Em quantas parcelas deseja pagar?(3x ou mais)'))
+        if  numParc > 3:
+            valorFinal = valorProduto/numParc
+            print(f'Você irá pagar {numParc} parcelas de R${valorFinal:.2f}')
+        else:
+            print('Apenas 3 parcelas ou mais')
+            exit()
+
 # Desafio 45: Crie um programa que faça o computador jogar Jokenpô com você
+
+# Resposta no arquivo separado
+    
+

@@ -9,4 +9,4 @@ elif nome == 'João' or nome == 'Maria' or nome == 'Paulo':
 elif nome == 'Davi':
     print('Você é da india')
 
-print('Tenha um ótimo dia {}'.format(nome))
+print('Tenha um ótimo dia {}'.format(nome)) 
