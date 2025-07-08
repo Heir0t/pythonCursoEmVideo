@@ -9,4 +9,3 @@ for c in range (10, -1, -1):
 if lancarFogos:
     print('Lançando uma saraivada de foguetes 🎆🎆🎆')
 
-#
