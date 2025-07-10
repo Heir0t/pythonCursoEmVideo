@@ -34,7 +34,7 @@ Aula 10 - Condicionais  if else{
 
 Aula 11 - Cores no terminal
 
-<h1>Mundo 2<h1>
+<h1>Mundo 2</h1>
 
 Aula 12 - Condições aninhadas
 
