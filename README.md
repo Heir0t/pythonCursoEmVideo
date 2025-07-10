@@ -1,4 +1,4 @@
-# pythonCurso
+# PythonCurso
 
 <h1>Mundo 1</h1>
 
@@ -37,3 +37,5 @@ Aula 11 - Cores no terminal
 <h1>Mundo 2<h1>
 
 Aula 12 - Condições aninhadas
+
+Aula 13 - Repetições controladas (for)
