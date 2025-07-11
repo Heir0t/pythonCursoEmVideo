@@ -39,3 +39,5 @@ Aula 11 - Cores no terminal
 Aula 12 - Condições aninhadas
 
 Aula 13 - Repetições controladas (for)
+
+Aula 14 - Repetições com while
